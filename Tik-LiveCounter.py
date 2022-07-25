@@ -2,7 +2,6 @@ from time import sleep
 from requests import get
 #Tiktok Live Counter non-stop
 print("""
-
 ████████╗██╗██╗  ██╗     ██╗      ██████╗
 ╚══██╔══╝██║██║ ██╔╝     ██║     ██╔════╝
    ██║   ██║█████╔╝█████╗██║     ██║     
@@ -13,8 +12,14 @@ print("""
           By @TweakPY - @vv1ck
 """)
 user=input('[?] Enter The user : ')#aa10935
+#YOU MUST READ "README" FILE BEFORE USE THE TOOL !!!!!
 try:
-    head={'Host': 'tiktok.livecounts.io','User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0','Accept': '*/*','Accept-Language': 'ar,en-US;q=0.7,en;q=0.3','Accept-Encoding': 'gzip, deflate','Referer': f'https://tokcounter.com/?user={user}','X-Midas': 'bbfb14e47e2eabd33a0fc3df75371d8952f96c312d98f949d24a6606413ed3ff','X-Aurora': '4975747737387','X-Mayhem': 'none','Origin': 'https://tokcounter.com','Cache-Control': 'max-age=0','Te': 'trailers'}
+    head={'Host': 'tiktok.livecounts.io','User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0','Accept': '*/*','Accept-Language': 'ar,en-US;q=0.7,en;q=0.3','Accept-Encoding': 'gzip, deflate','Referer': f'https://tokcounter.com/?user={user}',
+'X-Midas': '6d39063decda45d796d043e3c5570884b83a64072df6c66ae97bc6471be38554',
+'X-Aurora': '4976244355026',
+'X-Maven': '76f088c63041b7b049b3172220ef741c4a258f069295e62d30d29da585a92900',
+'X-Joey': '1658748118342',
+'X-Mayhem': '553246736447566b58312f697330687930634247756675374f51726c724c426d7a4e51785051484c7176596357674346474c6e6d39667957344547554e785753','Origin': 'https://tokcounter.com','Cache-Control': 'max-age=0','Te': 'trailers'}
     r1=get(f'https://tiktok.livecounts.io/search/{user}',headers=head)
     print('[-] searching for user ....')
     if r1.text.find(f"{user}")!=0:
