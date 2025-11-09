@@ -1,11 +1,11 @@
 # Tik-LiveCounter
 
-#2025/11/10 the old headers work fine ...
+# 2025/11/10 the old headers work fine ...
 
 
-##in the tool you will see this on the left side you must change it before use the tool or try the tool if the tool say Fatel error then you must change it and sorry for that ,  the website for getting this info : https://tokcounter.com/
+## in the tool you will see this on the left side you must change it before use the tool or try the tool if the tool say Fatel error then you must change it and sorry for that ,  the website for getting this info : https://tokcounter.com/
 
-###headers_must_change={
+### headers_must_change={
 'X-Midas': '6d39063decda45d796d043e3c5570884b83a64072df6c66ae97bc6471be38554',
 'X-Aurora': '4976244355026',
 'X-Maven': '76f088c63041b7b049b3172220ef741c4a258f069295e62d30d29da585a92900',
