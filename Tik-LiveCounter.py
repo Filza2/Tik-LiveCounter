@@ -9,7 +9,7 @@ print("""
    ██║   ██║██║  ██╗     ███████╗╚██████╗
    ╚═╝   ╚═╝╚═╝  ╚═╝     ╚══════╝ ╚═════╝
                 
-          By @TweakPY - @vv1ck
+          github.com/filza2
 """)
 user=input('[?] Enter The user : ')#aa10935
 #YOU MUST READ "README" FILE BEFORE USE THE TOOL !!!!!
